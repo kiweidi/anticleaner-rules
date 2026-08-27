@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "publishedDate": "2026-08-27",
+  "titleDe": "Gemeldete AntiCleaner-Kandidaten",
+  "titleEn": "Reported AntiCleaner candidates",
+  "scopeDe": "Namensbasierte Beobachtungsliste. Kein Malwareurteil und keine app-wirksame Regel.",
+  "scopeEn": "Name-based observation catalog. Not a malware verdict and not an app-enforced rule set.",
+  "notAMalwareVerdict": true,
+  "entries": [
+    {
+      "id": "phone-seep-junk-remover",
+      "displayName": "PhoneSeep - Junk Remover",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "keep-pdf",
+      "displayName": "Keep PDF",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "clean-master-kit",
+      "displayName": "Clean Master Kit",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "cleanpro",
+      "displayName": "CleanPro",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "procleaner",
+      "displayName": "ProCleaner",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "cleanswift",
+      "displayName": "CleanSwift",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "reiniger-und-schutz",
+      "displayName": "Reiniger & Schutz",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "ai-filecleaner",
+      "displayName": "AI FileCleaner",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "antiviruspure",
+      "displayName": "AntivirusPure",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "auraclean",
+      "displayName": "AuraClean",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "ccleaner",
+      "displayName": "CCleaner",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "cool-file-cleaner",
+      "displayName": "Cool File Cleaner",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "easy-cleaner",
+      "displayName": "Easy Cleaner",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "gruendliche-speicherreinigung",
+      "displayName": "Gründliche Speicherreinigung",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "jiffy-clean",
+      "displayName": "Jiffy Clean",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "security-phone-cleaner",
+      "displayName": "Security Phone Cleaner",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "ultra-file-cleaner",
+      "displayName": "Ultra File Cleaner",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    },
+    {
+      "id": "pdf-reader-lite-pdf-viewer",
+      "displayName": "PDF Reader Lite - PDF Viewer",
+      "status": "reported_candidate",
+      "reportCount": 1,
+      "observation": {
+        "category": "frequent_unwanted_advertising",
+        "observedDate": "2026-08-20",
+        "sourceType": "user_field_report",
+        "evidenceLevel": "name_only_report",
+        "summaryDe": "Nach Nutzerbeobachtung erschienen während der Nutzung im Abstand weniger Sekunden unerwünschte Werbeeinblendungen.",
+        "summaryEn": "A user field report observed unwanted advertising appearing every few seconds during use."
+      },
+      "identityBinding": {
+        "packageName": null,
+        "signerSha256": [],
+        "minVersionCode": null,
+        "maxVersionCode": null,
+        "ruleEligible": false,
+        "missingFields": [
+          "exact_package_name",
+          "signer_sha256",
+          "tested_version_range",
+          "reproducible_public_evidence"
+        ]
+      }
+    }
+  ]
+}

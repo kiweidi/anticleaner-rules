@@ -1,0 +1,35 @@
+name: Correction request
+description: Request correction or removal of a catalog entry.
+title: "[Correction] "
+labels: [correction]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Catalog entry
+    validations:
+      required: true
+  - type: dropdown
+    id: change
+    attributes:
+      label: Requested change
+      options:
+        - Correct the visible name
+        - Add identity information
+        - Correct the observation wording
+        - Remove the report
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason and verifiable supporting information
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Confirmation
+      options:
+        - label: I included no secret, credential, personal data, APK, or malware sample.
+          required: true

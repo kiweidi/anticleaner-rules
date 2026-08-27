@@ -1,0 +1,44 @@
+name: Candidate report
+description: Report observed behavior for research; this does not create a rule.
+title: "[Report] "
+labels: [candidate-report]
+body:
+  - type: markdown
+    attributes:
+      value: Do not upload APKs, credentials, personal data, account screenshots, or malware samples.
+  - type: input
+    id: visible-name
+    attributes:
+      label: Visible app name
+    validations:
+      required: true
+  - type: input
+    id: play-url
+    attributes:
+      label: Google Play URL (if available)
+  - type: input
+    id: package
+    attributes:
+      label: Exact Android package name (if known)
+  - type: input
+    id: version
+    attributes:
+      label: Version name and version code (if known)
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Observed behavior and reproducible steps
+      description: Separate app UI, Android system UI, and embedded advertising.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+  - type: checkboxes
+    id: declaration
+    attributes:
+      label: Confirmation
+      options:
+        - label: I included no APK, secret, credential, personal data, or private screenshot.
+          required: true

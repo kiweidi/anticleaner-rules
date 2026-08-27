@@ -1,0 +1,166 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/kiweidi/anticleaner-rules/main/schema/reported-candidates.schema.json",
+  "title": "AntiCleaner reported candidate catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "catalogVersion",
+    "publishedDate",
+    "titleDe",
+    "titleEn",
+    "scopeDe",
+    "scopeEn",
+    "notAMalwareVerdict",
+    "entries"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "catalogVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "publishedDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "titleDe": {
+      "type": "string",
+      "minLength": 1
+    },
+    "titleEn": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scopeDe": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scopeEn": {
+      "type": "string",
+      "minLength": 1
+    },
+    "notAMalwareVerdict": {
+      "const": true
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 500,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "displayName",
+          "status",
+          "reportCount",
+          "observation",
+          "identityBinding"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "maxLength": 96
+          },
+          "displayName": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 160
+          },
+          "status": {
+            "const": "reported_candidate"
+          },
+          "reportCount": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "observation": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "category",
+              "observedDate",
+              "sourceType",
+              "evidenceLevel",
+              "summaryDe",
+              "summaryEn"
+            ],
+            "properties": {
+              "category": {
+                "const": "frequent_unwanted_advertising"
+              },
+              "observedDate": {
+                "type": "string",
+                "format": "date"
+              },
+              "sourceType": {
+                "const": "user_field_report"
+              },
+              "evidenceLevel": {
+                "const": "name_only_report"
+              },
+              "summaryDe": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 500
+              },
+              "summaryEn": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 500
+              }
+            }
+          },
+          "identityBinding": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "packageName",
+              "signerSha256",
+              "minVersionCode",
+              "maxVersionCode",
+              "ruleEligible",
+              "missingFields"
+            ],
+            "properties": {
+              "packageName": {
+                "type": "null"
+              },
+              "signerSha256": {
+                "type": "array",
+                "maxItems": 0
+              },
+              "minVersionCode": {
+                "type": "null"
+              },
+              "maxVersionCode": {
+                "type": "null"
+              },
+              "ruleEligible": {
+                "const": false
+              },
+              "missingFields": {
+                "type": "array",
+                "minItems": 4,
+                "uniqueItems": true,
+                "items": {
+                  "enum": [
+                    "exact_package_name",
+                    "signer_sha256",
+                    "tested_version_range",
+                    "reproducible_public_evidence"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
